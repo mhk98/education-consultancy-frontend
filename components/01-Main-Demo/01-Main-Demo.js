@@ -63,7 +63,8 @@ const MainDemo = ({ blogs }) => {
 <div>
   <ContactPage/>
 </div>
-        <div className="rbt-callto-action-area mt_dec--half">
+
+        {/* <div className="rbt-callto-action-area mt_dec--half">
           <CallToAction />
         </div>
 
@@ -162,7 +163,7 @@ const MainDemo = ({ blogs }) => {
 
         <div className="rbt-newsletter-area newsletter-style-2 bg-color-primary rbt-section-gap">
           <NewsletterTwo />
-        </div>
+        </div> */}
       </main>
     </>
   );

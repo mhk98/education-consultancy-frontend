@@ -46,7 +46,7 @@ const SingleCourseTwo = ({ getParams }) => {
           <HeaderStyleTen headerSticky="" headerType={true} />
           <Cart />
 
-          <div className="rbt-page-banner-wrapper">
+          {/* <div className="rbt-page-banner-wrapper">
             <div className="rbt-banner-image"></div>
             <div className="rbt-banner-content">
               <div className="rbt-banner-content-top rbt-breadcrumb-style-3">
@@ -55,9 +55,9 @@ const SingleCourseTwo = ({ getParams }) => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="rbt-section-overlayping-top rbt-section-gapBottom">
+          <div className="rbt-section-overlayping-top rbt-section-gapBottom mt-8">
             <div className="inner">
               <div className="container">
                 <CourseDetailsTwo

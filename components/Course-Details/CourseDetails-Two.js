@@ -27,7 +27,7 @@ const CourseDetailsTwo = ({ checkMatchCourses }) => {
   }, []);
   return (
     <>
-      <div className="col-lg-12">
+      {/* <div className="col-lg-12">
         {checkMatchCourses.courseImg && (
           <Link
             className="video-popup-with-text video-popup-wrapper text-center popup-video mb--15"
@@ -54,7 +54,7 @@ const CourseDetailsTwo = ({ checkMatchCourses }) => {
             </div>
           </Link>
         )}
-      </div>
+      </div> */}
 
       <div className="row row--30 gy-5 pt--60">
         <div className="col-lg-4">
