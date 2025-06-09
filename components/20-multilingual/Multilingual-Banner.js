@@ -26,14 +26,14 @@ const countryFlag = [
   { country: "Australia", image: "/images/shape/flag-australia.png" },
   { country: "Canada", image: "/images/shape/flag-canada.png" },
   { country: "China", image: "/images/shape/flag-china.png" },
-  { country: "France", image: "/images/shape/flag-french.png" },
   { country: "Germany", image: "/images/shape/flag-germany.png" },
-  { country: "Japan", image: "/images/shape/flag-japan.png" },
-  { country: "Korea", image: "/images/shape/flag-korea.png" },
-  { country: "Pakistan", image: "/images/shape/flag-pakistan.png" },
-  { country: "Sri Lanka", image: "/images/shape/flag-srilonka.png" },
   { country: "United Kingdom", image: "/images/shape/flag-uk.png" },
   { country: "United States", image: "/images/shape/flag-usa.png" },
+  { country: "Hungary", image: "/images/shape/flag-hungary.png" },
+  { country: "Sweden", image: "/images/shape/flag-sweden.png" },
+  { country: "Denmark", image: "/images/shape/flag-denmark.png" },
+  { country: "Malaysia", image: "/images/shape/flag-malaysia.png" },
+  { country: "Belgium", image: "/images/shape/flag-belgium.png" },
 ];
 
 const MultilingualBanner = () => {
@@ -132,7 +132,7 @@ const MultilingualBanner = () => {
                     </span>
                   </div>
                   <h6 className="subtitle theme-gradient">
-                    Multi-Language Academy
+                    Edu Anchor
                   </h6>
                   <div className="title-in-shape d-flex flex-wrap align-items-center gap-2">
                     <div className="profile-share">
@@ -154,10 +154,10 @@ const MultilingualBanner = () => {
                         </Link>
                       ))}
                     </div>
-                    <h1 className="title">Take Online</h1>
+                    <h1 className="title">WE OPEN</h1>
                   </div>
                   <h1 className="title">
-                    Language{" "}
+                  THE{" "}
                     <span>
                       <Image
                         src={translateText}
@@ -166,25 +166,24 @@ const MultilingualBanner = () => {
                         alt=""
                       />
                     </span>{" "}
-                    Courses
+                    WORLD
                   </h1>
                   <h1 className="title">
-                    With
+                  FOR
                     <span className="mx-3">
                       <Image src={awardText} width={50} height={50} alt="" />
                     </span>
-                    Certificate
+                    YOU
                   </h1>
                   <p className="description mt--20 mb--40 mb_sm--30">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat.
+                  Get your visa and bring your happiness with EA Consultancy Ltd.
                   </p>
                   <Link
                     className="rbt-btn btn-gradient hover-icon-reverse"
                     href="#"
                   >
                     <span className="icon-reverse-wrapper">
-                      <span className="btn-text">Find Your Course</span>
+                      <span className="btn-text">Apply Now</span>
                       <span className="btn-icon">
                         <i className="feather-arrow-right"></i>
                       </span>

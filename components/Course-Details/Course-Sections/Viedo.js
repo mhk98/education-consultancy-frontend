@@ -69,9 +69,12 @@ const Viedo = ({ checkMatchCourses }) => {
     };
   }, []);
 
+
+  // const labelStyle = { minWidth: '220px', fontWeight: '500' };
+
   return (
     <>
-      {!disableVideo ? (
+      {/* {!disableVideo ? (
         <Link
           className={`video-popup-with-text video-popup-wrapper text-center popup-video sidebar-video-hidden mb--15 ${
             hideOnScroll ? "d-none" : ""
@@ -121,111 +124,62 @@ const Viedo = ({ checkMatchCourses }) => {
         </div>
       ) : (
         ""
-      )}
+      )} */}
       
       <div className="content-item-content">
-        <div className="rbt-price-wrapper d-flex flex-wrap align-items-center justify-content-between">
-          <div className="rbt-price">
-            <span className="current-price">${checkMatchCourses.price}</span>
-            <span className="off-price">${checkMatchCourses.offPrice}</span>
-          </div>
-          <div className="discount-time">
-            <span className="rbt-badge color-danger bg-color-danger-opacity">
-              <i className="feather-clock"></i> {checkMatchCourses.days} days
-              left!
-            </span>
-          </div>
-        </div>
 
-        <div className="add-to-card-button mt--15">
-          <Link
-            className="rbt-btn btn-gradient icon-hover w-100 d-block text-center"
-            href="#"
-            onClick={() =>
-              addToCartFun(checkMatchCourses.id, amount, checkMatchCourses)
-            }
-          >
-            <span className="btn-text">Add to Cart</span>
-            <span className="btn-icon">
-              <i className="feather-arrow-right"></i>
-            </span>
-          </Link>
-        </div>
+<div className="d-flex flex-column gap-4">
 
-        <div className="buy-now-btn mt--15">
-          <Link
-            className="rbt-btn btn-border icon-hover w-100 d-block text-center"
-            href="#"
-          >
-            <span className="btn-text">Buy Now</span>
-            <span className="btn-icon">
-              <i className="feather-arrow-right"></i>
-            </span>
-          </Link>
-        </div>
-        <span className="subtitle">
-          <i className="feather-rotate-ccw"></i> 30-Day Money-Back Guarantee
-        </span>
-        <div
-          className={`rbt-widget-details has-show-more ${
-            toggle ? "active" : ""
-          }`}
-        >
-          <ul className="has-show-more-inner-content rbt-course-details-list-wrapper">
-            {checkMatchCourses &&
-              checkMatchCourses.roadmap.map((item, innerIndex) => (
-                <li key={innerIndex}>
-                  <span>{item.text}</span>
-                  <span className="rbt-feature-value rbt-badge-5">
-                    {item.desc}
-                  </span>
-                </li>
-              ))}
-          </ul>
-          <div
-            className={`rbt-show-more-btn ${toggle ? "active" : ""}`}
-            onClick={() => setToggle(!toggle)}
-          >
-            Show More
-          </div>
-        </div>
+<div className="d-flex gap-4">
+  <div><small className="text-dark" style={{fontWeight:500}}>Intakes & Deadlines</small></div>
+  <div>
+    <div><small>- Fall (August/September): Major intake. Deadline:</small> <small className="text-decoration-underline">Dec – March</small></div>
+    <div><small>- Spring (January): Fewer courses. Deadline: Aug – Oct</small></div>
+    <div><small>- Summer (May): Limited courses. Deadline: Jan – Mar</small></div>
+  </div>
+</div>
 
-        <div className="social-share-wrapper mt--30 text-center">
-          <div className="rbt-post-share d-flex align-items-center justify-content-center">
-            <ul className="social-icon social-default transparent-with-border justify-content-center">
-              <li>
-                <Link href="https://www.facebook.com/">
-                  <i className="feather-facebook"></i>
-                </Link>
-              </li>
-              <li>
-                <Link href="https://www.twitter.com">
-                  <i className="feather-twitter"></i>
-                </Link>
-              </li>
-              <li>
-                <Link href="https://www.instagram.com/">
-                  <i className="feather-instagram"></i>
-                </Link>
-              </li>
-              <li>
-                <Link href="https://www.linkdin.com/">
-                  <i className="feather-linkedin"></i>
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <hr className="mt--20" />
-          <div className="contact-with-us text-center">
-            <p>For details about the course</p>
-            <p className="rbt-badge-2 mt--10 justify-content-center w-100">
-              <i className="feather-phone mr--5"></i> Call Us:
-              <Link href="#">
-                <strong>+444 555 666 777</strong>
-              </Link>
-            </p>
-          </div>
-        </div>
+<div className="d-flex  mt-4">
+  <div  ><small className="text-dark" style={{fontWeight:500}}>Tuition Fees (per year)</small></div>
+  <div>
+    <div><small>- Undergraduate: $20,000 – $45,000</small></div>
+    <div><small>- Postgraduate (Master’s): $25,000 – $50,000</small></div>
+  </div>
+</div>
+
+<div className="d-flex mt-4">
+  <div  ><small className="text-dark" style={{fontWeight:500}}>Living Costs (annual estimate)</small></div>
+  <div>
+<small>
+- $10,000 – $18,000 depending on location and lifestyle (includes housing, food, transport, insurance, etc.)
+
+</small>
+  </div>
+</div>
+
+<div className="d-flex mt-4">
+  <div  ><small className="text-dark" style={{fontWeight:500}}>Language Requirements</small></div>
+  <div>
+    <div><small>- TOEFL iBT: 80–100</small></div>
+    <div><small>- IELTS: 6.5–7.5</small></div>
+    <div><small>- Duolingo English Test: 105–120 (accepted by many institutions)</small></div>
+  </div>
+</div>
+
+<div className="d-flex mt-4">
+  <div  ><small className="text-dark" style={{fontWeight:500}}>Work Rights</small></div>
+  <div>
+    <div><small>- On-campus: Up to 20 hours/week during semesters, 40 hours/week during breaks</small></div>
+    <div><small>- Off-campus: CPT (during study), OPT (after graduation)</small></div>
+  </div>
+</div>
+
+<div className="d-flex mt-4">
+  <div  ><small className="text-dark" style={{fontWeight:500}}>Application Fees</small></div>
+  <div><small>- $50 – $100 per university (varies by institution)</small></div>
+</div>
+
+</div>
       </div>
     </>
   );

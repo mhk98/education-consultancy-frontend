@@ -38,7 +38,7 @@
 
       "body": [
         {
-          "text": "Market Researce.",
+          "text": "Create your Account.",
           "isActive": false,
           "tab": "home-tab-2",
           "target": "home-2",
@@ -46,7 +46,7 @@
           "img": "/images/tab/tabs-04.jpg"
         },
         {
-          "text": "Corporate Report.",
+          "text": "Track your Progress.",
           "isActive": true,
           "tab": "profile-tab-2",
           "target": "profile-2",
@@ -54,7 +54,7 @@
           "img": "/images/tab/tabs-05.jpg"
         },
         {
-          "text": "App Development.",
+          "text": "Start your Journey.",
           "isActive": false,
           "tab": "contact-tab-2",
           "target": "contact-2",

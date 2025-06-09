@@ -57,7 +57,8 @@ const CourseDetailsTwo = ({ checkMatchCourses }) => {
       </div> */}
 
       <div className="row row--30 gy-5 pt--60">
-        <div className="col-lg-4">
+        
+        <div className="col-lg-5">
           <div className="course-sidebar sticky-top rbt-shadow-box rbt-gradient-border">
             <div className="inner">
               <div className="content-item-content">
@@ -69,7 +70,7 @@ const CourseDetailsTwo = ({ checkMatchCourses }) => {
           </div>
         </div>
 
-        <div className="col-lg-8">
+        <div className="col-lg-7">
           <div className="course-details-content">
             <div className="rbt-inner-onepage-navigation sticky-top mt--30">
               <CourseMenu />
@@ -95,24 +96,28 @@ const CourseDetailsTwo = ({ checkMatchCourses }) => {
               id="details"
             >
               <div className="row g-5">
-                {checkMatchCourses &&
+                {/* {checkMatchCourses &&
                   checkMatchCourses.courseRequirement.map((data, index) => (
                     <Requirements
                       {...data}
                       key={index}
                       checkMatchCourses={data}
                     />
-                  ))}
+                  ))} */}
+
+                  <Requirements/>
               </div>
             </div>
             <div
               className="rbt-instructor rbt-shadow-box intructor-wrapper mt--30"
               id="intructor"
             >
-              {checkMatchCourses &&
+              {/* {checkMatchCourses &&
                 checkMatchCourses.courseInstructor.map((data, index) => (
                   <Instructor {...data} key={index} checkMatchCourses={data} />
-                ))}
+                ))} */}
+
+                <Instructor/>
             </div>
             <div
               className="rbt-review-wrapper rbt-shadow-box review-wrapper mt--30"
@@ -121,17 +126,17 @@ const CourseDetailsTwo = ({ checkMatchCourses }) => {
               <Review />
             </div>
 
-            {checkMatchCourses &&
+            {/* {checkMatchCourses &&
               checkMatchCourses.featuredReview.map((data, index) => (
                 <Featured {...data} key={index} coursesFeatured={data} />
-              ))}
+              ))} */}
           </div>
-          <div className="related-course mt--60">
+          {/* <div className="related-course mt--60">
             {checkMatchCourses &&
               checkMatchCourses.relatedCourse.map((data, index) => (
                 <RelatedCourse {...data} key={index} checkMatchCourses={data} />
               ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </>

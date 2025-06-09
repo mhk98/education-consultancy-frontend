@@ -44,28 +44,8 @@ const OurCourse = () => {
                     id="rbt-myTab"
                     role="tablist"
                   >
-                    <li className="nav-item" role="presentation">
-                      <button
-                        className="active"
-                        id="development-tab"
-                        data-bs-toggle="tab"
-                        data-bs-target="#development"
-                        type="button"
-                        role="tab"
-                        aria-controls="development"
-                        aria-selected="true"
-                      >
-                        <span className="icon">
-                          <Image
-                            src={ukSvg}
-                            width={20}
-                            height={20}
-                            alt="Flag Icon"
-                          />
-                        </span>
-                        <span className="btn-text">English</span>
-                      </button>
-                    </li>
+                   
+
                     <li className="nav-item" role="presentation">
                       <button
                         id="ui_ux-tab"
@@ -89,88 +69,112 @@ const OurCourse = () => {
                     </li>
                     <li className="nav-item" role="presentation">
                       <button
-                        id="marketing-tab"
+                        id="ui_ux-tab"
                         data-bs-toggle="tab"
-                        data-bs-target="#marketing"
+                        data-bs-target="#ui-ux"
                         type="button"
                         role="tab"
-                        aria-controls="marketing"
+                        aria-controls="ui-ux"
                         aria-selected="false"
                       >
                         <span className="icon">
                           <Image
-                            src={skSvg}
+                            src={germanySvg}
                             width={20}
                             height={20}
                             alt="Flag Icon"
                           />
                         </span>
-                        <span className="btn-text">Korean</span>
+                        <span className="btn-text">USA</span>
                       </button>
                     </li>
                     <li className="nav-item" role="presentation">
                       <button
-                        id="business-tab"
+                        id="ui_ux-tab"
                         data-bs-toggle="tab"
-                        data-bs-target="#business"
+                        data-bs-target="#ui-ux"
                         type="button"
                         role="tab"
-                        aria-controls="business"
+                        aria-controls="ui-ux"
                         aria-selected="false"
                       >
                         <span className="icon">
                           <Image
-                            src={franceSvg}
+                            src={germanySvg}
                             width={20}
                             height={20}
                             alt="Flag Icon"
                           />
                         </span>
-                        <span className="btn-text">French</span>
+                        <span className="btn-text">UK</span>
                       </button>
                     </li>
                     <li className="nav-item" role="presentation">
                       <button
-                        id="language-tab"
+                        id="ui_ux-tab"
                         data-bs-toggle="tab"
-                        data-bs-target="#language"
+                        data-bs-target="#ui-ux"
                         type="button"
                         role="tab"
-                        aria-controls="language"
+                        aria-controls="ui-ux"
                         aria-selected="false"
                       >
                         <span className="icon">
                           <Image
-                            src={japanSvg}
+                            src={germanySvg}
                             width={20}
                             height={20}
                             alt="Flag Icon"
                           />
                         </span>
-                        <span className="btn-text">Japanese</span>
+                        <span className="btn-text">Australia</span>
                       </button>
                     </li>
                     <li className="nav-item" role="presentation">
                       <button
-                        id="italian-tab"
+                        id="ui_ux-tab"
                         data-bs-toggle="tab"
-                        data-bs-target="#italian"
+                        data-bs-target="#ui-ux"
                         type="button"
                         role="tab"
-                        aria-controls="italian"
+                        aria-controls="ui-ux"
                         aria-selected="false"
                       >
                         <span className="icon">
                           <Image
-                            src={italySvg}
+                            src={germanySvg}
                             width={20}
                             height={20}
                             alt="Flag Icon"
                           />
                         </span>
-                        <span className="btn-text">Italian</span>
+                        <span className="btn-text">Canada</span>
                       </button>
                     </li>
+                    <li className="nav-item" role="presentation">
+                      <button
+                        id="ui_ux-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#ui-ux"
+                        type="button"
+                        role="tab"
+                        aria-controls="ui-ux"
+                        aria-selected="false"
+                      >
+                        <span className="icon">
+                          <Image
+                            src={germanySvg}
+                            width={20}
+                            height={20}
+                            alt="Flag Icon"
+                          />
+                        </span>
+                        <span className="btn-text">Sweden</span>
+                      </button>
+                    </li>
+
+               
+
                   </ul>
                 </div>
               </div>

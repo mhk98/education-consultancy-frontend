@@ -676,22 +676,27 @@
       "sectionTitle": "Style Twelve.",
       "body": [
         {
-          "title": "Your Apply",
+          "title": "Counsel Free",
           "desc": "English Learning looking for random paragraphs, you've come to the right place. When a random.",
           "img": "/images/icons/001-bulb.png"
         },
         {
-          "title": "We Connect",
+          "title": "Apply To University",
           "desc": "Javascript Learning looking for random paragraphs, you've come to the right place. When a random.",
           "img": "/images/icons/002-hat.png"
         },
         {
-          "title": "You Get Ready",
+          "title": "Apply for Visa",
           "desc": "Angular Learning looking for random paragraphs, you've come to the right place. When a random.",
           "img": "/images/icons/003-id-card.png"
         },
         {
-          "title": "Completed",
+          "title": "Receive your Visa",
+          "desc": "Php Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/icons/004-pass.png"
+        },
+        {
+          "title": "Fly to your destination",
           "desc": "Php Learning looking for random paragraphs, you've come to the right place. When a random.",
           "img": "/images/icons/004-pass.png"
         }

@@ -71,13 +71,13 @@ const SingleCourseTwo = ({ getParams }) => {
             checkMatchCourses={checkMatch !== undefined ? checkMatch : ""}
           />
 
-          <div className="rbt-related-course-area bg-color-white pt--60 rbt-section-gapBottom">
+          {/* <div className="rbt-related-course-area bg-color-white pt--60 rbt-section-gapBottom">
             <SimilarCourses
               checkMatchCourses={
                 checkMatch !== undefined ? checkMatch.similarCourse : ""
               }
             />
-          </div>
+          </div> */}
 
           <Separator />
           <FooterOne />

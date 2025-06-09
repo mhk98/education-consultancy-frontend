@@ -16,7 +16,7 @@ const HeaderRightTwo = ({ btnClass, btnText, userType }) => {
   return (
     <div className="header-right">
       <ul className="quick-access">
-        <li className="access-icon">
+        {/* <li className="access-icon">
           <Link
             className={`search-trigger-active rbt-round-btn ${
               search ? "" : "open"
@@ -45,7 +45,7 @@ const HeaderRightTwo = ({ btnClass, btnText, userType }) => {
             {userType}
           </Link>
           <User />
-        </li>
+        </li> */}
 
         <li className="access-icon rbt-user-wrapper d-block d-xl-none">
           <Link className="rbt-round-btn" href="#">

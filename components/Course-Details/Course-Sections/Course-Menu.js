@@ -14,10 +14,10 @@ const CourseMenu = () => {
 
   const sections = [
     { id: "overview", label: "Overview" },
-    { id: "coursecontent", label: "Course Content" },
-    { id: "details", label: "Details" },
-    { id: "intructor", label: "Intructor" },
-    { id: "review", label: "Review" },
+    { id: "coursecontent", label: "Universities" },
+    { id: "details", label: "Admission Requirements" },
+    { id: "intructor", label: "Visa Processing" },
+    { id: "review", label: "PR Oppurtunities" },
   ];
 
   useEffect(() => {

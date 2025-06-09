@@ -87,7 +87,8 @@ const AboutTwo = () => {
                 <div className="section-title text-start">
                   <span className="subtitle bg-coral-opacity">{data.tag}</span>
                   <h2 className="title">
-                    {data.title} <br /> {data.subTitle}
+                    {/* {data.title} <br /> {data.subTitle} */}
+                    After Visa Service<br /> Charge
                   </h2>
                 </div>
 
@@ -109,7 +110,7 @@ const AboutTwo = () => {
                         <i className={item.icon}></i>
                       </div>
                       <div className="feature-content">
-                        <h6 className="feature-title">{item.title}</h6>
+                        <h6 className="feature-title">One to One Guidance</h6>
                         <p className="feature-description">{item.info}</p>
                       </div>
                     </div>

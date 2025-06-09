@@ -84,8 +84,8 @@ const HeaderEight = ({
             </div>
 
             <HeaderRightTwo
-              userType="Admin"
-              btnText="Enroll Now"
+              // userType="Admin"
+              btnText="Apply Now"
               btnClass="rbt-marquee-btn marquee-auto btn-border-gradient radius-round btn-sm hover-transform-none"
             />
           </div>

@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import React, { useState } from "react";
+import { FaGraduationCap, FaUniversity } from "react-icons/fa";
 
 const Overview = ({ checkMatchCourses }) => {
   const pathname = usePathname();
@@ -20,42 +21,30 @@ const Overview = ({ checkMatchCourses }) => {
         id="overview"
       >
         <div className="rbt-course-feature-inner has-show-more-inner-content">
+
+          <div className="d-flex align-items-center gap-3">
+          <h5>< FaGraduationCap/></h5>
+          <h5>Overview</h5>
+          </div>
           <div className="section-title">
-            <h4 className="rbt-title-style-3">{title}</h4>
+            <h4 className="rbt-title-style-3">🇺🇸 Study in the USA – A Guide for Bangladeshi Students
+            </h4>
           </div>
-          <p>{desc}</p>
+          <p>The United States is a premier destination for international students, offering diverse academic programs,
+             cutting-edge research opportunities, and a multicultural environment. With over 4,000 accredited institutions,
+              students can choose from a wide range of disciplines and degree levels.</p>
 
-          <div className="row g-5 mb--30">
-            <div className="col-lg-6">
-              <ul className="rbt-list-style-1">
-                {overviewList.slice(0, 4).map((item, innerIndex) => (
-                  <li key={innerIndex}>
-                    <i className="feather-check"></i>
-                    {item.listItem}
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="col-lg-6">
-              <ul className="rbt-list-style-1">
-                {overviewList.slice(4, 8).map((item, innerIndex) => (
-                  <li key={innerIndex}>
-                    <i className="feather-check"></i>
-                    {item.listItem}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-          <p>{descTwo}</p>
+      
         </div>
-        <div
+        {/* <div
           className={`rbt-show-more-btn ${toggle ? "active" : ""}`}
           onClick={() => setToggle(!toggle)}
         >
-          Show More
-        </div>
+          {
+          
+            toggle ? "Show Less" : "Show More"
+          }
+        </div> */}
       </div>
     </>
   );

@@ -311,104 +311,79 @@
         }
       ]
     },
+  
+
     {
-      "menuTitle": "Dashboard",
+      "menuTitle": "Country",
       "menuType": "default-dropdown",
       "hasMegamenu": false,
       "hasMenuChild": true,
-      "hasPositionStatic": false,
+      "hasPositionStatic": true,
       "hasDropdown": true,
       "menuItems": [
         {
-          "title": "Instructor Dashboard",
-          "hasSubmenu": true,
-          "submenuItems": [
-            {
-              "title": "Dashboard",
-              "link": "/instructor-dashboard"
-            },
-            {
-              "title": "Profile",
-              "link": "/instructor-profile"
-            },
-            {
-              "title": "Enrolled Courses",
-              "link": "/instructor-enrolled-course"
-            },
-            {
-              "title": "Wishlist",
-              "link": "/instructor-wishlist"
-            },
-            {
-              "title": "Reviews",
-              "link": "/instructor-reviews"
-            },
-            {
-              "title": "My Quiz Attempts",
-              "link": "/instructor-quiz-attempts"
-            },
-            {
-              "title": "Order History",
-              "link": "/instructor-order-history"
-            },
-            {
-              "title": "My Course",
-              "link": "/instructor-personal-courses"
-            },
-            {
-              "title": "Announcements",
-              "link": "/instructor-announcements"
-            },
-            {
-              "title": "Assignments",
-              "link": "/instructor-assignments"
-            },
-            {
-              "title": "Settings",
-              "link": "/instructor-settings"
-            }
-          ]
+          "title": "USA",
+          "link": "/course-detail-2"
+
+        },
+
+        {
+          "title": "Canada",
+          "link": "/canada"
+        },
+
+        {
+          "title": "Australia",
+          "link": "/australia"
+        },
+
+        {
+          "title": "UK",
+          "link": "/uk"
         },
         {
-          "title": "Student Dashboard",
-          "hasSubmenu": true,
-          "submenuItems": [
-            {
-              "title": "Dashboard",
-              "link": "/student-dashboard"
-            },
-            {
-              "title": "Profile",
-              "link": "/student-profile"
-            },
-            {
-              "title": "Enrolled Courses",
-              "link": "/student-enrolled-course"
-            },
-            {
-              "title": "Wishlist",
-              "link": "/student-wishlist"
-            },
-            {
-              "title": "Reviews",
-              "link": "/student-reviews"
-            },
-            {
-              "title": "My Quiz Attempts",
-              "link": "/student-quiz-attempts"
-            },
-            {
-              "title": "Order History",
-              "link": "/student-order-history"
-            },
-            {
-              "title": "Settings",
-              "link": "/student-settings"
-            }
-          ]
+          "title": "Germany",
+          "link": "/germany"
+        },
+        {
+          "title": "Belgium",
+          "link": "/belgium"
+        },
+        {
+          "title": "Netherlands",
+          "link": "/netherland"
+        },
+        {
+          "title": "Hungary",
+          "link": "/hungary"
+        },
+        {
+          "title": "Sweden",
+          "link": "/sweden"
+        },
+        {
+          "title": "Finland",
+          "link": "/finland"
+        },
+        {
+          "title": "China",
+          "link": "/china"
+        },
+        {
+          "title": "Denmark ",
+          "link": "/denmark"
+        },
+        {
+          "title": "Austria",
+          "link": "/austria"
+        },
+        {
+          "title": "Malaysia",
+          "link": "/malaysia"
         }
       ]
     },
+
     {
       "menuTitle": "Pages",
       "menuType": "grid-item-4",

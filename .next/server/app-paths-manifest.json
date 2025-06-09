@@ -1,6 +1,7 @@
 {
   "/page": "app/page.js",
-  "/(courses)/course-detail-2/page": "app/(courses)/course-detail-2/page.js",
-  "/(courses)/course-detail-2/[courseId]/page": "app/(courses)/course-detail-2/[courseId]/page.js",
+  "/(pages)/about-us-02/page": "app/(pages)/about-us-02/page.js",
+  "/(blogs)/blog-minimal/page": "app/(blogs)/blog-minimal/page.js",
+  "/(pages)/admission-guide/page": "app/(pages)/admission-guide/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js"
 }

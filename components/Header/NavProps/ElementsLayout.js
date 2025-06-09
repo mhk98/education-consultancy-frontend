@@ -6,7 +6,7 @@ const ElementsLayout = ({ MenuData, menuGrid, num1, num2 }) => {
 
   const isActive = (href) => pathname.startsWith(href);
   return (
-    <div className="col-lg-4 col-xxl-4 single-mega-item">
+    <div className="col-lg-3 col-xxl-3 single-mega-item">
       <ul className="mega-menu-item">
         {MenuData &&
           MenuData.menuData.map((data, index) => {

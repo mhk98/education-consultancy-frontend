@@ -17,16 +17,22 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/(courses)/course-detail-2/page": [
+    "/(pages)/about-us-02/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(courses)/course-detail-2/page.js"
+      "static/css/app/(pages)/about-us-02/page.css",
+      "static/chunks/app/(pages)/about-us-02/page.js"
     ],
-    "/(courses)/course-detail-2/[courseId]/page": [
+    "/(blogs)/blog-minimal/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(courses)/course-detail-2/[courseId]/page.css",
-      "static/chunks/app/(courses)/course-detail-2/[courseId]/page.js"
+      "static/chunks/app/(blogs)/blog-minimal/page.js"
+    ],
+    "/(pages)/admission-guide/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(pages)/admission-guide/page.css",
+      "static/chunks/app/(pages)/admission-guide/page.js"
     ]
   }
 }
